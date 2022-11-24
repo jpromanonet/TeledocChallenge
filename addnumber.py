@@ -1,5 +1,5 @@
-firstString = "1111 2222"
-secondString = "2222 1111"
+firstString = "1111"
+secondString = "2222"
 
 # Let's convert the variables from Strings to Integers
 
