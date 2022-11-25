@@ -3,6 +3,7 @@
 '''Implement a function that adds any two strings that each represent N arbitrarily large non-
 negative numbers.'''
 
+
 # Let's create a list from the strings
 def addNumbers(firstString, secondString):
     # Let's convert the string parameters into list so every number separated by spaces becomes an index
@@ -23,9 +24,12 @@ def addNumbers(firstString, secondString):
             raise ValueError('The list are not the same length')
         # If everything is fine (not negative numbers neither difference in lists lengths) we add the strings
         else:
-            print(float(firstList[i])+float(secondList[i]))
+            print(float(firstList[i]) + float(secondList[i]))
+
 
 # Testing
-addNumbers("1234567.8901 2.345", "12.34 2345678901.2")
-print(" ")
-addNumbers("123 456 789", "11 22 33")
+# addNumbers("1234567.8901 2.345", "12.34 2345678901.2")
+# addNumbers("123 456 789", "11 22 33")
+
+print("You need to add two string with numbers separated by spaces (please don't use negatives) and the same length in block of numbers")
+print("For example:'123 456 789', '11 22 33'")
