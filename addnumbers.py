@@ -26,19 +26,18 @@ def addNumbers(firstString, secondString):
         else:
             print(float(firstList[i]) + float(secondList[i]))
 
+# Let's create a function to ask the user two strings of numbers
+def userInput():
+    print("You need to add two string with numbers separated by spaces (please don't use negatives) and the same length in block of numbers")
+    print("For example:'123 456 789', '11 22 33'")
+    print(" ")
+    firstString = input("Enter the first string: ")
+    secondString = input("Enter the second string: ")
+    print(" ")
+    print("------------")
+    print(" ")
+    print("Result: ")
+    print(" ")
+    addNumbers(firstString, secondString)
 
-# Testing
-# addNumbers("1234567.8901 2.345", "12.34 2345678901.2")
-# addNumbers("123 456 789", "11 22 33")
-
-print("You need to add two string with numbers separated by spaces (please don't use negatives) and the same length in block of numbers")
-print("For example:'123 456 789', '11 22 33'")
-print(" ")
-firstString = input("Enter the first string: ")
-secondString = input("Enter the second string: ")
-print(" ")
-print("------------")
-print(" ")
-print("Result: ")
-print(" ")
-addNumbers(firstString, secondString)
+userInput()
