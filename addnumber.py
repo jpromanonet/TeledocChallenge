@@ -1,5 +1,7 @@
 # Take Home Exercise:
 
+'''Implement a function that adds any two strings that each represent N arbitrarily large non-
+negative numbers.'''
 
 # Let's create a list from the strings
 def addNumbers(firstString, secondString):
@@ -24,6 +26,6 @@ def addNumbers(firstString, secondString):
             print(float(firstList[i])+float(secondList[i]))
 
 # Testing
-addNumbers("1234567.8901 2.345", "12.34 2345678901.2 2")
+addNumbers("1234567.8901 2.345", "12.34 2345678901.2")
 print(" ")
 addNumbers("123 456 789", "11 22 33")
