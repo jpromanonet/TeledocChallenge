@@ -8,9 +8,11 @@ def addNumbers(firstString, secondString):
         it = iter(lists)
         the_len = len(next(it))
         if not all(len(l) == the_len for l in it):
-            raise ValueError('not all lists have same length!')
+            raise ValueError('not all lists have the same length!')
         else:
             print(float(firstList[i])+float(secondList[i]))
 
 
-addNumbers("1234567.8901 2.345", "12.34 2345678901.2 3")
+addNumbers("1234567.8901 2.345", "12.34 2345678901.2")
+print(" ")
+addNumbers("123 456 789", "11 22 33")
