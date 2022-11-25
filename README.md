@@ -40,7 +40,7 @@ https://www.geeksforgeeks.org/python-program-convert-string-list/
 
 https://www.geeksforgeeks.org/check-if-element-exists-in-list-in-python/
 
-https://www.w3schools.com/python/python_user_input.asp
+https://www.w3schools.com/python/python_user_input.asp 
 
 ---
 Also I added some super basic user interface on the terminal to make it easier to test if it works.
