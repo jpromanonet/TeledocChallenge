@@ -7,4 +7,4 @@ def addNumbers(firstString, secondString):
         print(float(firstList[i])+float(secondList[i]))
 
 
-addNumbers("1111 5555 365", "1111 5555 365")
+addNumbers("1234567.8901 2.345", "12.34 2345678901.2")
