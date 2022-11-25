@@ -33,9 +33,13 @@ I took the whole problem and separated into little ones (one problem for each po
 I won't lie and say I didn't use google so I let the links of where I look up for help to solve it:
 
 https://www.geeksforgeeks.org/iterate-over-a-list-in-python/
+
 https://stackoverflow.com/questions/10613131/how-to-access-list-elements
+
 https://www.geeksforgeeks.org/python-program-convert-string-list/
+
 https://www.geeksforgeeks.org/check-if-element-exists-in-list-in-python/
+
 https://www.w3schools.com/python/python_user_input.asp
 ---
 Also I added some super basic user interface on the terminal to make it easier to test if it works.
