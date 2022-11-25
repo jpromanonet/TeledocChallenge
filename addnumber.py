@@ -33,3 +33,12 @@ def addNumbers(firstString, secondString):
 
 print("You need to add two string with numbers separated by spaces (please don't use negatives) and the same length in block of numbers")
 print("For example:'123 456 789', '11 22 33'")
+print(" ")
+firstString = input("Enter the first string: ")
+secondString = input("Enter the second string: ")
+print(" ")
+print("------------")
+print(" ")
+print("Result: ")
+print(" ")
+addNumbers(firstString, secondString)
